@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Calculadora</h1>
+  <form id="formCalculadora">
+    <div style="display: flex;">
+      <label for="">Primer Numero:</label>
+      <input type="number" name="primerNumero" >
+    </div>
+    <div style="display: flex;">
+      <label for="">Segundo Numero:</label>
+      <input type="number" name="segundoNumero">
+    </div>
+    <div style="display: flex;">
+      <label for="">Ingresa la operacion:</label>
+      <input type="text" name="operacion" minlength="2">
+    </div>
+    <button>Calcular</button>
+  </form>
+  <h2 id="textResultado">Todavia no hay resultados</h2>
+  <script src="./app.js"></script>
+</body>
+</html>
